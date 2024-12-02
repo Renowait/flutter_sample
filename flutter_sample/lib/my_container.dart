@@ -7,8 +7,8 @@ class MyContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:  Text('Using Container'),
-        backgroundColor:  Color(0xFF455A64),
+        title:   const Text('Using Container'),
+        backgroundColor: const Color(0xFF455A64),
         centerTitle: true,
       ),
       body:  Center(child: Column(
